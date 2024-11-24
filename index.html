@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Greeting</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="gift-box" class="gift-box">
+        <p>გოჩა გახსენი ყუთი !</p>
+      </div>
+      <div id="photo" preload="auto" class="photo hidden">
+        <img src="./image.png" alt="Happy Birthday Photo" />
+      </div>
+      <div id="balloons" class="balloons hidden">
+        <!-- Balloons animation will  be handled by JS -->
+      </div>
+      <audio id="music" src="./hg.mp3" preload="auto" autoplay muted loop></audio>
+
+      <p id="message" class="hidden">დაბადების დღეს გილოცავ გოჩ!</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
